@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cash regester" />
+    <title>Cash Regester</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+     <form id="purchase-form">
+        <p>enter cash from customer</p>
+        <input id="cash-from-customer" />
+       <button id="purchase-btn" type="submit">purchase</button>
+     </form>
+     <div id="amount-outer">
+       <input placeholder="    total cost" id="price-input" type="number" />
+     </div>
+     <div id="neck-outer">
+       <div id="neck-inner"></div>
+     </div>
+    <div id="register-outer">
+      <div id="buttons-div">
+      </div>
+      <div id="cash-in-drawer-div">
+        <p><strong>change in drawer :</strong></p>
+        <p>---Pennies: <span id="pennies"></span></p>
+        <p>---Nickels: <span id="nickels"></span></p>
+        <p>---Dimes: <span id="dimes"></span></p>
+        <p>---Quarters: <span id="quarters"></span></p>
+        <p>---Ones: <span id="ones"></span></p>
+        <p>---Fives: <span id="fives"></span></p>
+        <p>---Tens: <span id="tens"></span></p>
+        <p>---Twenties: <span id="twenties"></span></p>
+        <p>---Hundreds: <span id="hundreds"></span></p>
+      </div>
+    </div>
+    <div id="drawer-outer">
+        <div id="drawer-inner">
+            <div id="drawer-button"></div>
+        </div>
+    </div>
+    <div id="change-due-div">
+        <p id="change-due"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
