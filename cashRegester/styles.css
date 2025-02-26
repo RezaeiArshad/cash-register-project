@@ -167,3 +167,20 @@ body {
     align-items: center;
     z-index: 1;
 }
+
+#change-due-div {
+    width: 300px;
+    position: absolute;
+    background-color: beige;
+    height: fit-content;
+    top: 620px;
+    left: calc(50% - 150px);
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#change-due {
+    font-size: 18px;
+    font-family: tahoma;
+}
